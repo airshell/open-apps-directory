@@ -1,0 +1,46 @@
+kind: project
+slug: codex-quota-overlay
+addedAt: 2026-11-15
+name: "Codex Quota Overlay"
+description: "An independent Windows and macOS companion for Codex that shows quota and reset details beside conversations, with an optional local dashboard for pace and usage history."
+category: developer-tools
+projectType: real-app
+stack: javascript
+platforms:
+  - windows
+  - macos
+  - desktop
+tags:
+  - codex
+  - desktop
+  - electron
+  - quota
+  - usage-monitoring
+licenses:
+  - mit
+repoUrl: https://github.com/cpys/codex-quota-overlay
+links:
+  github: https://github.com/cpys/codex-quota-overlay
+  website: https://cpys.github.io/codex-quota-overlay/
+bestFor:
+  - Codex Desktop users who want quota and reset context at a glance, plus an optional local view of usage pace and history.
+health:
+  status: active
+  maturity: useful
+  tier: experimental
+  visibility: keep
+  cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
+source:
+  type: manual
+  owner: cpys
+  repo: codex-quota-overlay
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
